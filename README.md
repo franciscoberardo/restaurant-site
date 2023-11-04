@@ -1,4 +1,4 @@
-# Simple and static restaurant site with React and Tailwind
+# Static restaurant site with React and Tailwind
 
 https://franciscoberardo.github.io/restaurant-site/
 
