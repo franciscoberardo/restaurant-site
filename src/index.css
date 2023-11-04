@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mobile-nav {
+  @apply block md:hidden fixed top-20 pt-6 py-2 px-5 pt-6 w-full h-full bg-gray-900 duration-500;
+} 
+
+.hero-container {
+  @apply w-full bg-cover bg-center;
+}
+
+.hero-min-height {
+  @apply min-h-[600px] md:min-h-[600px] lg:min-h-[600px] xl:min-h-[800px] 2xl:min-h-[1000px];
+}
+
+nav li a {
+  @apply px-4 py-5 text-lg;
+}
+
+nav li a:hover {
+  color: #7477FF;
+}
