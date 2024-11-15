@@ -1,9 +1,10 @@
 import "./App.css";
 import Hero from "./components/Hero";
 import About from "./components/About";
-import Recomm from "./components/Recomm";
-import Location from "./components/Location";
 import Footer from "./components/Footer";
+import Grid from "./components/Grid";
+import Reviews from "./components/Reviews";
+import fondo from "./assets/fondo.jpg";
 
 
 function App() {
@@ -11,9 +12,11 @@ function App() {
     <>
       <Hero />
       <About />
-      <Recomm />
-      <Location />
-      <Footer />
+      <Grid />
+      <div className="bg-cover bg-center" style={{ backgroundImage: `url(${fondo})` }}>
+        <Reviews />
+        <Footer />
+      </div>
     </>
   );
 }
